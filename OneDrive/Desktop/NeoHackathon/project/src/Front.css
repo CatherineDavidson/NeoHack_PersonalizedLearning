@@ -1,0 +1,31 @@
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .live-chat {
+    margin-top: 20px;
+  }
+  
+  .chat-window {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message.user {
+    background-color: #f1f1f1;
+    text-align: right;
+  }
+  
+  .message.support {
+    background-color: #d1ffd6;
+  }
+  

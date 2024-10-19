@@ -1,0 +1,95 @@
+/* .progress-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .progress-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .progress-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 20px;
+    background-color: #76c7c0;
+    transition: width 0.5s ease;
+  }
+   */
+   /* Overall container for the progress component */
+.progress-container {
+    padding: 30px;
+    border-radius: 12px;
+    background: #ffffff; /* White background */
+    max-width: 600px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Heading style */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+    color: #2c3e50; /* Dark blue color for the heading */
+  }
+  
+  /* Flexbox for details display */
+  .progress-details {
+    display: flex;
+    justify-content: space-around; /* Space evenly between items */
+    margin-bottom: 20px;
+  }
+  
+  /* Individual item styles */
+  .progress-item {
+    flex: 1; /* Equal width for all items */
+    text-align: center;
+    padding: 10px;
+    background: #ecf0f1; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+  }
+  
+  /* Scale up on hover */
+  .progress-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+  }
+  
+  /* Progress bar container */
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0; /* Light gray background for the bar */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Progress fill style */
+  .progress-fill {
+    height: 24px; /* Height of the progress bar */
+    background: linear-gradient(90deg, #76c7c0, #34b1a8); /* Gradient color */
+    transition: width 0.5s ease; /* Smooth transition */
+  }
+  
+  /* Optional additional styles for the footer or extra information */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d; /* Soft gray for footer text */
+    font-style: italic; /* Italicize footer text */
+  }
+  
